@@ -17,5 +17,11 @@
     "prisma": "^6.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
